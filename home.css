@@ -1,0 +1,73 @@
+#f{
+    background-image: url(UHU.png);
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+#ff{
+text-align: center;
+color: white;
+
+}
+#ff h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+#ff p{
+    margin-bottom: 20px;
+}
+#ff a{
+    text-decoration: none;
+    background-color: rgb(248, 94, 94);
+    padding: 12px;
+    border-radius: 50px;
+    color: white;
+}
+
+.container{
+    margin-top: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.info{
+    
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+}
+.desc{
+    width: 50%;
+    padding: 0 100px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.desc p{
+    
+    text-align: justify;
+}
+
+.img{
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img img{
+    height: 350px;
+}
+
+hr{
+    margin-top: 20px;
+    box-shadow:1px 1px 4px red ;
+    color: red;
+}

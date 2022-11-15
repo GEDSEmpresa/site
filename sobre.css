@@ -1,0 +1,166 @@
+
+
+.f{
+    background-image: url(Design\ sem\ nome.png);
+    width: auto;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.c{
+display: flex;
+color: white;
+position: absolute;
+left: 10px;
+font-size: 50px;
+
+
+}
+.c h1{
+    
+   margin-right: 9px;
+}
+
+.f img{
+    position: absolute;
+    right: -20px;
+    height: 250px;
+     
+}
+
+
+.con div{
+    background-color: rgb(236, 96, 96);
+}
+
+
+
+
+.sec h1{
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+
+.o{
+    
+    text-align: justify;
+    
+}
+
+.o #qs #qs1 p{
+    padding: 15px;
+}
+
+.sec{
+    margin-top: 2px;
+}
+
+.o #qs{
+    display: flex;
+    width: 100%;
+    
+}
+
+.o #qs #qs1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+.o #qs #qs2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.o #qs #qs2 img{
+    height: 500px;
+    
+}
+
+
+@media(max-width: 1000px){
+    .f-r{
+        height: 250px;
+    }
+    .f-r .c {
+        font-size: 40px;
+    }
+    .f-r img{
+        height: 100px;
+    }
+}
+
+@media(max-width: 930px){
+    #qs1 div p{
+        font-size: 10px;
+        
+    }
+    .qs2 .b{
+        height: 50px;
+        background-color: blueviolet;
+    }
+    .f-r{
+        height: 150px;
+    }
+    .f-r .c {
+        font-size: 30px;
+    }
+    .f-r img{
+        height: 80px;
+    }
+}
+
+@media(max-width: 730px){
+    .f-r{
+        height: 95px;
+    }
+    .f-r .c {
+        font-size: 20px;
+    }
+    .f-r img{
+        height: 60px;
+    }
+}
+
+@media(max-width: 630px){
+    .f-r{
+        height: 85px;
+    }
+    .f-r .c {
+        font-size: 10px;
+    }
+    .f-r img{
+        height: 40px;
+    }
+}
+@media(max-width: 320px){
+    .na {
+        display: none;
+    }
+    .mob hr{
+        width: auto;
+        margin-left: none;
+    }
+    .mob .social{
+        text-align: center;
+        padding: 5px;
+    }
+    .mob .social a{
+        margin:2px;
+    }
+    .mapa{
+        width: 320px;
+    }
+    .nam{
+        display: block;
+    }
+}

@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.container{
+    width: 1150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.container .card{
+    position: relative;
+    padding: 10px;
+    width: 300px;
+    background-color: white;
+    margin: 20px;
+    overflow: hidden;
+    border: 1px solid black;
+    transition: 0.5s;
+    border-radius: 20px;
+    text-align: center;
+}
+.container .card img{
+    transition: 0.5s;
+    height: 100px;
+    border-radius: 50px;
+    border: 3px solid ;
+    border-top-color: black;
+    border-bottom-color: #000;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+
+.container .card h1{
+    font-size: 2rem;
+}
+
+.container .card .content{
+    text-align: center;
+    padding: 20px;
+}
+
+.container .card .content p{
+    color: #777;
+    transition: 0.5s;
+}
+
+.container .card .content a{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: white;
+    text-decoration: none;
+    border-radius: 40px;
+    outline: none;
+    transition: 0.5s;
+    margin-top: 20px;
+}
+
+.container .card:hover{
+    ackground-color: #251e35;
+    color: #f0435a;
+    margin-top: -30px;
+    box-shadow: 2px 20px 25px #f0435a;
+    border-color: #f0435a;
+}
+
+.container .card:hover img{
+    border-top-color: #251e35;
+    border-bottom-color: #251e35;
+}
+
+.container .card:hover .content p{
+    color: #f0435a;
+}
+.container .card:hover .content a{
+    color: #251e35;
+    background-color: #f0435a;
+}
